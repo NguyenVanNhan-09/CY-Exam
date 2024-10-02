@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>header</header>
+    <div class="content">
+        <div class="col-1">col-1</div>
+        <div class="col-2">col-2</div>
+    </div>
+    <footer>footer</footer>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            height: 150px;
+            width: 100%;
+            background-color: red;
+        }
+
+        footer {
+            height: 150px;
+            width: 100%;
+            background-color: gray;
+        }
+
+        .content {
+            border: 1px solid black;
+            height: 100vh;
+        }
+
+        .col-1 {
+            width: 48%;
+            height: 100%;
+            background-color: blue;
+            float: left;
+        }
+
+        .col-2 {
+            width: 48%;
+            height: 100%;
+            background-color: pink;
+            float: right;
+        }
+    </style>
+</body>
+
+</html>
