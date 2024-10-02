@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <form action="" class="form-login">
+                <div class="icon-user"><img src="./icon/Frame.png" alt=""></div>
+                <div class="input-username"><input type="text" placeholder="username"></div>
+                <div class="input-password"><input type="text" placeholder="password"></div>
+                <div class="btn"><button>login</button></div>
+                <div class="forgot-pass">Forgot password?</div>
+            </form>
+        </div>
+    </div>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .content {
+            width: 339px;
+            height: 339px;
+            background-color: orange;
+        }
+
+        .form-login {
+            display: flex;
+            height: 100%;
+            flex-direction: column;
+            align-items: center;
+            padding: 25px;
+        }
+
+        .icon-user {
+            display: flex;
+            justify-content: center;
+        }
+
+        .icon-user>img {
+            width: 49px;
+            height: 49px;
+        }
+
+        .input-username>input {
+            color: #fff;
+            width: 195px;
+            height: 41px;
+            font-size: 14px;
+            border-radius: 5px;
+            padding: 14px;
+            margin-top: 6px;
+            text-transform: uppercase;
+            background-color: transparent;
+            border: 1px solid #fff
+        }
+
+        .input-username>input::placeholder {
+            color: #fff;
+        }
+
+        .input-password>input::placeholder {
+            color: #fff;
+        }
+
+        .input-password>input {
+            color: #fff;
+            width: 195px;
+            height: 41px;
+            font-size: 14px;
+            border-radius: 5px;
+            padding: 14px;
+            margin-top: 25px;
+            text-transform: uppercase;
+            background-color: transparent;
+            border: 1px solid #fff
+        }
+
+        .btn>button {
+            width: 195px;
+            height: 40px;
+            border-radius: 5px 0px 0px 0px;
+            background: rgba(155, 81, 224, 1);
+            border: none;
+            border-radius: 5px;
+            margin-top: 25px;
+            font-size: 12px;
+            text-transform: uppercase;
+            color: #fff;
+            box-shadow: 0px 4px 4px 0px #00000040;
+            cursor: pointer;
+        }
+
+        .forgot-pass {
+            margin-top: 8px;
+            font-size: 14px;
+            color: #fff;
+            text-align: end;
+            width: 100%;
+            padding-right: 50px;
+        }
+    </style>
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="section-1">
+        <div class="box-parent">
+            <div class="box box-1"></div>
+            <div class="box box-2"></div>
+        </div>
+    </section>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+
+        /* dùng chung */
+        .box {
+            width: 55px;
+            height: 55px;
+        }
+
+
+        /* section 1 */
+        .section-1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .section-1 .box-parent {
+            width: 146px;
+            height: 126px;
+            background: #C4C4C4;
+            position: relative;
+        }
+
+        .section-1 .box-1 {
+            background-color: #EB5757;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .section-1 .box-2 {
+            background-color: #F2994A;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+    </style>
+</body>
+
+</html>

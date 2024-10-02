@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div></div>
+        </div>
+    </div>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .content {
+            width: 385px;
+            height: 110px;
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+        }
+
+        .box {
+            width: 55px;
+            height: 55px;
+        }
+
+        .box:nth-child(odd) {
+            background: #F2994A;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .box:nth-child(n+8) {
+            border-radius: 0 0 10px 10px;
+        }
+    </style>
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <header></header>
+        <div class="content clearfix">
+            <div class="box-left"></div>
+            <div class="box-right"></div>
+        </div>
+        <footer></footer>
+    </div>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            width: 224px;
+            height: 237px;
+            background: #C4C4C4;
+        }
+
+        header {
+            width: 100%;
+            height: 31px;
+            background: #EB5757;
+        }
+
+        footer {
+            width: 100%;
+            height: 34px;
+            background: #9B51E0;
+        }
+
+        .content {
+            margin-top: 16px;
+            margin-bottom: 29px;
+        }
+
+        .box-left {
+            width: 149px;
+            height: 126px;
+            background: #F2994A;
+            float: left;
+        }
+
+        .box-right {
+            width: 64px;
+            height: 126px;
+            background: #EB5757;
+            float: right;
+        }
+
+        .clearfix {
+            overflow: auto;
+        }
+    </style>
+</body>
+
+</html>
