@@ -1,5 +1,5 @@
 :root {
-    --orange-color:  rgba(242, 153, 74, 1);
+    --orange-color: rgba(242, 153, 74, 1);
     --red-color: rgba(235, 87, 87, 1);
     --green-color: rgba(33, 150, 83, 1);
     --blue-color: rgba(86, 204, 242, 1);
@@ -15,7 +15,8 @@
     font-family: 'Inter', sans-serif;
 }
 
-.container, .container-login {
+.container,
+.container-login {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -91,21 +92,25 @@
     left: 0;
     background: var(--red-color);
 }
+
 .section2_box-tr {
     top: 0;
     right: 0;
     background: var(--purple-color);
 }
+
 .section2_box-bl {
     bottom: 0;
     left: 0;
     background: var(--purple-color);
 }
+
 .section2_box-br {
     bottom: 0;
     right: 0;
     background: var(--red-color);
 }
+
 .section2_box-center {
     top: 50%;
     left: 50%;
@@ -137,11 +142,13 @@
     left: 31px;
 
 }
+
 .section3_box-2 {
     background: var(--orange-color);
     top: 50px;
     right: 31px;
 }
+
 .section3_box-3 {
     background: var(--red-color);
     bottom: 25px;
@@ -207,7 +214,7 @@
 .section6_row1,
 .section6_row2,
 .section6_row3,
-.section6_row4{
+.section6_row4 {
     display: flex;
     justify-content: space-between;
 }
@@ -217,11 +224,13 @@
     height: 126px;
     background: var(--red-color);
 }
+
 .row1_box-2 {
     width: 234px;
     height: 126px;
     background: var(--green-color);
 }
+
 .row1_box-3 {
     width: 123px;
     height: 126px;
@@ -233,6 +242,7 @@
     height: 126px;
     background: var(--purple-color);
 }
+
 .row2_box-2 {
     width: 321px;
     height: 126px;
@@ -245,7 +255,8 @@
     background: var(--green-color);
 }
 
-.row4_box-1, .row4_box-2{
+.row4_box-1,
+.row4_box-2 {
     width: 180px;
     height: 138px;
 }
@@ -266,20 +277,24 @@
     background: rgba(0, 133, 255, 1);
     display: flex;
 }
+
 .section7 div {
     display: flex;
     margin: auto 0;
 }
+
 .section7_box-1 {
     width: 1183px;
     height: 193px;
     background: rgba(117, 74, 74, 1);
 }
+
 .section7_box-2 {
     width: 816px;
     height: 171px;
     background: rgba(242, 153, 74, 1);
 }
+
 .section7_box-3 {
     width: 547px;
     height: 149px;
@@ -288,7 +303,7 @@
 
 /*Login*/
 .container-login {
-    background-color: rgb(229,229,229);
+    background-color: rgb(229, 229, 229);
 }
 
 .login {
@@ -312,7 +327,7 @@
     height: 100%;
 }
 
-.login_header{
+.login_header {
     border-bottom: 3px solid rgb(242, 242, 242);
 }
 
@@ -375,12 +390,12 @@
     font-size: 26px;
     font-weight: 600;
     line-height: 31px;
-    color: rgb(166,166,166);
+    color: rgb(166, 166, 166);
 }
 
 .form_email-input::placeholder,
 .form_password-input::placeholder {
-    color: rgb(166,166,166);
+    color: rgb(166, 166, 166);
 }
 
 .form_password-main {
@@ -410,6 +425,7 @@
     cursor: pointer;
     appearance: none;
 }
+
 .form_remember-checkbox:checked {
     background-color: #007bff;
     border: 2px solid #007bff;
@@ -419,7 +435,7 @@
     font-size: 26px;
     font-weight: 600;
     line-height: 31px;
-    color: rgb(153,153,153);
+    color: rgb(153, 153, 153);
 }
 
 .form_btn {
@@ -486,12 +502,19 @@
     padding: 50px;
     display: flex;
     gap: 58px;
+    position: relative;
+}
+
+.card_btn-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
 }
 
 .card_image {
     width: 586px;
     height: 694px;
-    border-radius: 44px ;
+    border-radius: 44px;
 }
 
 .card_image>img {
@@ -510,6 +533,7 @@
     color: rgba(140, 197, 249, 1);
 
 }
+
 .card_text {
     width: 552px;
     height: 299px;
@@ -533,8 +557,9 @@
     justify-content: start;
     margin-top: 72px;
 }
-.card_social-m ,
-.card_social-ig ,
+
+.card_social-m,
+.card_social-ig,
 .card_social-in {
     margin-right: 12px;
 }
@@ -542,7 +567,8 @@
 .card_text-sub {
     width: 552px;
     height: 129px;
-    font-family: 'Rubik', sans-serif;;
+    font-family: 'Rubik', sans-serif;
+    ;
     font-size: 32px;
     font-style: italic;
     font-weight: 1;
