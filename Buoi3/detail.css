@@ -3,11 +3,6 @@
     margin: 0;
     padding: 0;
 }
-
-.container {
-    width: 100%;
-}
-
 .brown {
     background: #B6A179;
 }
@@ -24,8 +19,14 @@
     background: #F2C758;
 }
 
+.container {
+    width: 100%;
+}
+
 .content {
-    margin: 60px;
+    width: 100%;
+    max-width: 1700px;
+    margin: 0 auto;
     position: relative;
 }
 
@@ -57,10 +58,29 @@
     text-align: center;
     list-style-type: none;
     margin-right: 76px;
+    text-transform: uppercase;
 }
 
 .header_icon {
     width: 236px;
+    display: flex;
+}
+.count-wrapper {
+    position: relative;
+}
+.qty-cart{
+    position: absolute;
+    background: red;
+    font-size: 18px;
+    color: white;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -8px;
+    right: -8px;
 }
 
 .about-detail {
@@ -80,7 +100,7 @@
     font-size: 20px;
     font-weight: 400;
     line-height: 23px;
-
+    text-transform: uppercase;
 }
 
 .detail_left-size-list {
@@ -126,6 +146,7 @@
     font-size: 20px;
     font-weight: 400;
     line-height: 23px;
+    text-transform: uppercase;
 }
 
 .right_detail-name {
@@ -133,6 +154,7 @@
     font-size: 72px;
     font-weight: 400;
     line-height: 85px;
+    text-transform: uppercase;
 }
 
 .right_detail-description {
@@ -181,6 +203,7 @@
     font-size: 20px;
     font-weight: 400;
     line-height: 23px;
+    text-transform: uppercase;
     text-align: center;
 }
 
@@ -200,6 +223,7 @@
     font-size: 24px;
     font-weight: 600;
     line-height: 28px;
+    text-transform: uppercase;
 }
 
 .scroll {
