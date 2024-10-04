@@ -147,6 +147,7 @@
     width: 1104px;
     left: 50%;
     transform: translateX(-50%);
+    z-index: -1;
 }
 
 
@@ -156,6 +157,7 @@
     top: 190%;
     left: 50%;
     transform: translateX(-50%);
+    z-index: -1;
 }
 
 .last-detail {
@@ -205,15 +207,13 @@
     top: 70%;
     left: -50px;
     z-index: 20;
-}
-
-.scroll>p {
     font-size: 24px;
     font-weight: 400;
     text-transform: uppercase;
     font-family: "Unica One", sans-serif;
     rotate: 270deg;
 }
+
 
 .social {
     position: absolute;
