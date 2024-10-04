@@ -1,0 +1,224 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+}
+
+.brown {
+    background: #B6A179;
+}
+
+.black {
+    background: #272425;
+}
+
+.blue {
+    background: #6389CB;
+}
+
+.yellow {
+    background: #F2C758;
+}
+
+.content {
+    margin: 60px;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_logo {
+    width: 236px;
+}
+
+.header_navbar {
+    width: 100%;
+}
+
+.header_navbar>ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.header_navbar>ul>li {
+    font-family: "Unica One", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    list-style-type: none;
+    margin-right: 76px;
+}
+
+.header_icon {
+    width: 236px;
+}
+
+.about-detail {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between ;
+    position: relative;
+}
+
+.about-detail_left {
+    margin-left: 72px;
+    width: 50%;
+}
+
+.detail_left-heading {
+    font-family: "Unica One", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+
+}
+
+.detail_left-size-list {
+    display: flex;
+    list-style-type: none;
+}
+
+.detail_left-size-item {
+    font-family: "HelveticaNeueCyr", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    border: 1px solid rgba(19, 18, 18, 1);
+    margin:  28px 20px 0 0;
+}
+
+.detail_left-color {
+    margin-top: 55px;
+}
+
+.detail_left-color-list {
+    display: flex;
+    list-style-type: none;
+}
+
+.detail_left-color-item {
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    margin:  28px 20px 0 0;
+}
+
+.about-detail_right {
+    width: 488px;
+}
+
+.right_category-name {
+    font-family: "Helvetica", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.right_detail-name {
+    font-family: "Unica One", sans-serif;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 85px;
+}
+
+.right_detail-description {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.content-img {
+    position: absolute;
+    width: 1104px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.content-elip {
+    position: absolute;
+    width: 1104px;
+    top: 190%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.last-detail {
+    margin-top: 550px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.step {
+    display: flex;
+    align-items: center;
+}
+
+.step-prev {
+    margin-right: 56px;
+}
+
+.text-step {
+    font-family: "Unica One", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: center;
+}
+
+.icon-play{
+    margin-right: 24px;
+}
+
+.play {
+    display: flex;
+    align-items: center;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    font-family: "Unica One", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.scroll {
+    position: absolute;
+    top: 70%;
+    left: -50px;
+    z-index: 20;
+}
+
+.scroll>p {
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: "Unica One", sans-serif;
+    rotate: 270deg;
+}
+
+.social {
+    position: absolute;
+    top: 70%;
+    right: 0;
+    z-index: 20;
+    width: 28px;
+}
