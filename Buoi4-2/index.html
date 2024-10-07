@@ -15,9 +15,13 @@
     <div class="container">
         <div class="wrapper">
             <header>
+                <label for="nav-mobie-input">
+                    <img src="./assets/icons/bars.svg" class="header__bars" alt="">
+                </label>
                 <div class="logo">
                     <img src="./assets/images/logo.png" class="img" alt="">
                 </div>
+                <!-- navber pc -->
                 <div class="navbar">
                     <ul>
                         <li class="active"><a href="#">About us</a></li>
@@ -27,6 +31,39 @@
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
+
+                <input type="checkbox" hidden id="nav-mobie-input">
+
+                <!-- navbar-mobile -->
+                <nav class="nav__mobile">
+                    <ul class="nav__mobile-list">
+                        <li>
+                            <a href="" class="nav__mobile-link">Home</a>
+                        </li>
+                        <li>
+                            <a href="" class="nav__mobile-link">About</a>
+                        </li>
+                        <li>
+                            <a href="" class="nav__mobile-link">Category</a>
+                        </li>
+                        <li>
+                            <a href="" class="nav__mobile-link">News</a>
+                        </li>
+                        <li>
+                            <a href="" class="nav__mobile-link">Contact</a>
+                        </li>
+                    </ul>
+                    <!-- btn close -->
+                    <label for="nav-mobie-input" class="nav__mobile-close">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path
+                                d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c-9.4 9.4-9.4 24.6 0 33.9l47 47-47 47c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l47-47 47 47c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-47-47 47-47c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-47 47-47-47c-9.4-9.4-24.6-9.4-33.9 0z" />
+                        </svg>
+                    </label>
+                </nav>
+
+                <label for="nav-mobie-input" class="nav__overley"></label>
+
                 <div class="language">
                     <span class="language__title">En</span>
                     <img src="./assets/icons/america.svg" class="language__flag" alt="">
@@ -59,7 +96,7 @@
                 <div class="team__heading">
                     Meet the team
                 </div>
-                <div class="navbar team__navbar">
+                <div class="navbar">
                     <ul>
                         <li class="active"><a href="#">Management</a></li>
                         <li><a href="#">Product</a></li>
@@ -69,90 +106,86 @@
                     </ul>
                 </div>
                 <div class="team__member">
-                    <div class="row">
-                        <div class="col col-four">
-                            <div class="team__member-item">
-                                <div class="team__member-img">
-                                    <img src="./assets/images/member-1.png" class="img" alt="">
-                                </div>
-                                <div class="team__member-name">Vicky Russ</div>
-                                <div class="team__member-position">CTO FOR APPLICATION DEVELOPMENT</div>
-                                <a href="#" class="team__member-link">View profile</a>
-                            </div>
+
+                    <div class="team__member-item">
+                        <div class="team__member-img">
+                            <img src="./assets/images/member-1.png" class="img" alt="">
                         </div>
-                        <div class="col col-four">
-                            <div class="team__member-item">
-                                <div class="team__member-img">
-                                    <img src="./assets/images/member-2.png" class="img" alt="">
-                                </div>
-                                <div class="team__member-name">Rot Mitt</div>
-                                <div class="team__member-position">CTO FOR COMMUNICATIONS NETWORKS</div>
-                                <a href="#" class="team__member-link">View profile</a>
-                            </div>
-                        </div>
-                        <div class="col col-four">
-                            <div class="team__member-item">
-                                <div class="team__member-img">
-                                    <img src="./assets/images/member-3.png" class="img" alt="">
-                                </div>
-                                <div class="team__member-name">Laura Hanz</div>
-                                <div class="team__member-position">CEO</div>
-                                <a href="#" class="team__member-link">View profile</a>
-                            </div>
-                        </div>
-                        <div class="col col-four">
-                            <div class="team__member-item">
-                                <div class="team__member-img">
-                                    <img src="./assets/images/member-4.png" class="img" alt="">
-                                </div>
-                                <div class="team__member-name">Elena Wood</div>
-                                <div class="team__member-position">DEPUTY CHIEF EXECUTIVE OFFICER</div>
-                                <a href="#" class="team__member-link">View profile</a>
-                            </div>
-                        </div>
+                        <div class="team__member-name">Vicky Russ</div>
+                        <div class="team__member-position">CTO FOR APPLICATION DEVELOPMENT</div>
+                        <a href="#" class="team__member-link">View profile</a>
                     </div>
-                    <div class="row mt-30">
-                        <div class="col col-four">
-                            <div class="team__member-item">
-                                <div class="team__member-img">
-                                    <img src="./assets/images/member-5.png" class="img" alt="">
-                                </div>
-                                <div class="team__member-name">Aman Nais</div>
-                                <div class="team__member-position">CTO FOR APPLICATION DEVELOPMENT</div>
-                                <a href="#" class="team__member-link">View profile</a>
-                            </div>
+
+
+                    <div class="team__member-item">
+                        <div class="team__member-img">
+                            <img src="./assets/images/member-2.png" class="img" alt="">
                         </div>
-                        <div class="col col-four">
-                            <div class="team__member-item">
-                                <div class="team__member-img">
-                                    <img src="./assets/images/member-6.png" class="img" alt="">
-                                </div>
-                                <div class="team__member-name">Francisca Lemon</div>
-                                <div class="team__member-position">MANAGING DIRECTOR</div>
-                                <a href="#" class="team__member-link">View profile</a>
-                            </div>
-                        </div>
-                        <div class="col col-four">
-                            <div class="team__member-item">
-                                <div class="team__member-img">
-                                    <img src="./assets/images/member-7.png" class="img" alt="">
-                                </div>
-                                <div class="team__member-name">Reine Tais</div>
-                                <div class="team__member-position">MANAGING DIRECTOR</div>
-                                <a href="#" class="team__member-link">View profile</a>
-                            </div>
-                        </div>
-                        <div class="col col-four">
-                            <div class="team__member-item">
-                                <div class="team__member-img">
-                                    <img src="./assets/images/member-8.png" class="img" alt="">
-                                </div>
-                                <div class="team__member-name">Olgur Monz</div>
-                                <div class="team__member-position">PRODUCT DESIGNER</div>
-                                <a href="#" class="team__member-link">View profile</a>
-                            </div>
-                        </div>
+                        <div class="team__member-name">Rot Mitt</div>
+                        <div class="team__member-position">CTO FOR COMMUNICATIONS NETWORKS</div>
+                        <a href="#" class="team__member-link">View profile</a>
                     </div>
+
+
+                    <div class="team__member-item">
+                        <div class="team__member-img">
+                            <img src="./assets/images/member-3.png" class="img" alt="">
+                        </div>
+                        <div class="team__member-name">Laura Hanz</div>
+                        <div class="team__member-position">CEO</div>
+                        <a href="#" class="team__member-link">View profile</a>
+                    </div>
+
+
+                    <div class="team__member-item">
+                        <div class="team__member-img">
+                            <img src="./assets/images/member-4.png" class="img" alt="">
+                        </div>
+                        <div class="team__member-name">Elena Wood</div>
+                        <div class="team__member-position">DEPUTY CHIEF EXECUTIVE OFFICER</div>
+                        <a href="#" class="team__member-link">View profile</a>
+                    </div>
+
+
+                    <div class="team__member-item">
+                        <div class="team__member-img">
+                            <img src="./assets/images/member-5.png" class="img" alt="">
+                        </div>
+                        <div class="team__member-name">Aman Nais</div>
+                        <div class="team__member-position">CTO FOR APPLICATION DEVELOPMENT</div>
+                        <a href="#" class="team__member-link">View profile</a>
+                    </div>
+
+
+                    <div class="team__member-item">
+                        <div class="team__member-img">
+                            <img src="./assets/images/member-6.png" class="img" alt="">
+                        </div>
+                        <div class="team__member-name">Francisca Lemon</div>
+                        <div class="team__member-position">MANAGING DIRECTOR</div>
+                        <a href="#" class="team__member-link">View profile</a>
+                    </div>
+
+
+                    <div class="team__member-item">
+                        <div class="team__member-img">
+                            <img src="./assets/images/member-7.png" class="img" alt="">
+                        </div>
+                        <div class="team__member-name">Reine Tais</div>
+                        <div class="team__member-position">MANAGING DIRECTOR</div>
+                        <a href="#" class="team__member-link">View profile</a>
+                    </div>
+
+
+                    <div class="team__member-item">
+                        <div class="team__member-img">
+                            <img src="./assets/images/member-8.png" class="img" alt="">
+                        </div>
+                        <div class="team__member-name">Olgur Monz</div>
+                        <div class="team__member-position">PRODUCT DESIGNER</div>
+                        <a href="#" class="team__member-link">View profile</a>
+                    </div>
+
                 </div>
                 <div class="team__member-btn">
                     <a href="#">Load more</a>
@@ -172,10 +205,10 @@
             <div id="values">
                 <div class="values__heading">Our values stem from the following four roots:</div>
                 <div class="values__item">
-                    <div class="values__item-index col-two">
+                    <div class="values__item-index">
                         <img src="./assets/images/number1.png" class="img" alt="">
                     </div>
-                    <div class="values__item-content col-ten">
+                    <div class="values__item-content">
                         <h3>Transparency</h3>
                         <p>Omnis praesentium doloremque ipsa eveniet. Itaque aut ea accusantium error impedit impedit.
                             Minima quisquam fuga sed maxime vitae non fuga. </p>
@@ -272,7 +305,6 @@
                         </div>
                     </div>
                 </div>
-
             </footer>
         </div>
     </div>
