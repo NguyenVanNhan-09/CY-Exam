@@ -639,12 +639,7 @@ footer {
 }
 
 // Responsive
-
-/* Extra small devices (phones, 600px and down) */
 @media screen and (max-width: 599px) {
-   html {
-      background-color: pink;
-   }
    header {
       display: flex;
       justify-content: space-between;
@@ -772,36 +767,36 @@ footer {
    footer {
       .footer__content {
          padding: 290px 35px 0;
-         flex-direction: column; /* Đặt hướng là cột để căn giữa tất cả các phần tử */
-         align-items: center; /* Căn giữa theo chiều ngang */
+         flex-direction: column;
+         align-items: center;
 
          .footer__left {
-            width: 100%; /* Đảm bảo chiều rộng 100% cho phần trái */
-            flex-direction: column; /* Sắp xếp các phần tử con theo cột */
-            align-items: center; /* Căn giữa các phần tử con */
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
 
             &-sub {
-               text-align: center; /* Căn giữa văn bản */
+               text-align: center;
             }
 
             &-social {
-               justify-content: center; /* Căn giữa các biểu tượng xã hội */
+               justify-content: center;
             }
             &-year {
-               text-align: center; /* Căn giữa văn bản */
+               text-align: center;
             }
          }
 
          .footer__right {
-            width: 100%; /* Đảm bảo chiều rộng 100% cho phần phải */
-            flex-direction: column; /* Đặt hướng là cột */
-            align-items: center; /* Căn giữa các phần tử con */
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
 
             &-item {
-               text-align: center; /* Căn giữa văn bản trong mục */
+               text-align: center;
                ul {
                   li {
-                     text-align: center; /* Căn giữa văn bản */
+                     text-align: center;
                   }
                }
             }
@@ -813,9 +808,6 @@ footer {
 
 
 @media only screen and (min-width: 600px) and (max-width: 767px) {
-   html {
-      background-color: red;
-   }
    header {
       display: flex;
       justify-content: space-between;
@@ -918,36 +910,36 @@ footer {
    }
    footer {
       .footer__content {
-         flex-direction: column; /* Đặt hướng là cột để căn giữa tất cả các phần tử */
-         align-items: center; /* Căn giữa theo chiều ngang */
+         flex-direction: column;
+         align-items: center;
 
          .footer__left {
-            width: 100%; /* Đảm bảo chiều rộng 100% cho phần trái */
-            flex-direction: column; /* Sắp xếp các phần tử con theo cột */
-            align-items: center; /* Căn giữa các phần tử con */
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
 
             &-sub {
-               text-align: center; /* Căn giữa văn bản */
+               text-align: center;
             }
 
             &-social {
-               justify-content: center; /* Căn giữa các biểu tượng xã hội */
+               justify-content: center;
             }
             &-year {
-               text-align: center; /* Căn giữa văn bản */
+               text-align: center;
             }
          }
 
          .footer__right {
-            width: 100%; /* Đảm bảo chiều rộng 100% cho phần phải */
-            flex-direction: column; /* Đặt hướng là cột */
-            align-items: center; /* Căn giữa các phần tử con */
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
 
             &-item {
-               text-align: center; /* Căn giữa văn bản trong mục */
+               text-align: center;
                ul {
                   li {
-                     text-align: center; /* Căn giữa văn bản */
+                     text-align: center;
                   }
                }
             }
@@ -957,11 +949,7 @@ footer {
    }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-   html {
-      background-color: green;
-   }
    header {
       display: flex;
       justify-content: space-between;
@@ -1085,7 +1073,6 @@ footer {
    }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1024px) {
    html {
       background-color: gray;
