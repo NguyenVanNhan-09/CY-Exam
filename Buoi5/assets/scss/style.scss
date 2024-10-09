@@ -203,13 +203,13 @@ header {
       width: 50%;
       .banner__content-text {
          > h2 {
-            font-size: 50px;
+            font-size: 3.125rem;
             font-weight: 700;
             line-height: 70px;
             color: $color-primary;
          }
          > p {
-            font-size: 22px;
+            font-size: 1.375rem;
             font-weight: 400;
             line-height: 30px;
             color: $text-secondary;
@@ -222,7 +222,7 @@ header {
          margin-bottom: 25px;
          border: none;
          border-radius: 10px;
-         font-size: 16px;
+         font-size: 1rem;
          font-weight: 700;
          line-height: 25px;
          color: #fff;
@@ -271,14 +271,14 @@ header {
          }
          .stats__content {
             > h4 {
-               font-size: 25px;
+               font-size: 1.563rem;
                font-weight: 700;
                line-height: 30px;
                color: $text-primary;
                margin-bottom: 5px;
             }
             > p {
-               font-size: 20px;
+               font-size: 1.25rem;
                font-weight: 400;
                line-height: 30px;
                color: $text-secondary;
@@ -300,14 +300,14 @@ header {
    .provide__content {
       width: 50%;
       > h3 {
-         font-size: 35px;
+            font-size: 2.188rem;
          font-weight: 500;
          line-height: 50px;
          color: $color-primary;
       }
       > p {
          margin-top: 20px;
-         font-size: 16px;
+         font-size: 1rem;
          font-weight: 400;
          line-height: 30px;
          color: $text-secondary;
@@ -325,7 +325,7 @@ header {
                height: 24px;
             }
             > p {
-               font-size: 14px;
+               font-size: 0.875rem;
                font-weight: 400;
                line-height: 30px;
                color: $text-secondary;
@@ -334,7 +334,7 @@ header {
       }
       > a {
          margin-left: 33px;
-         font-size: 14px;
+         font-size: 0.875rem;
          font-weight: 500;
          line-height: 30px;
          color: $color-primary;
@@ -367,7 +367,7 @@ header {
             padding: 20px 27px 36px 36px;
             > h4 {
                margin-top: 20px;
-               font-size: 18px;
+               font-size: 1.125rem;
                font-weight: 500;
                line-height: 30px;
                color: #08090a;
@@ -376,7 +376,7 @@ header {
                min-width: 297px;
                min-height: 107px;
                margin-top: 16px;
-               font-size: 18px;
+               font-size: 1.125rem;
                font-weight: 400;
                line-height: 30px;
                color: #08090a;
@@ -389,7 +389,7 @@ header {
                border-radius: 47px;
                border: 2px solid #8cc5f9;
                background-color: transparent;
-               font-size: 16px;
+               font-size: 1rem;
                font-weight: 500;
                line-height: 30px;
                color: $color-primary;
@@ -466,13 +466,13 @@ header {
                }
                > div {
                   > h5 {
-                     font-size: 18px;
+                     font-size: 1.125rem;
                      font-weight: 500;
                      line-height: 30px;
                      color: #0b132a;
                   }
                   > p {
-                     font-size: 14px;
+                     font-size: 0.875rem;
                      font-weight: 400;
                      line-height: 30px;
                      color: $text-secondary;
@@ -480,7 +480,7 @@ header {
                }
             }
             .comment-item__content {
-               font-size: 16px;
+               font-size: 1rem;
                font-weight: 400;
                line-height: 30px;
                color: #0b132a;
@@ -490,7 +490,6 @@ header {
    }
 }
 
-// Custom
 ::-webkit-scrollbar {
    height: 12px;
 }
@@ -679,7 +678,7 @@ footer {
             width: 100%;
 
             > h2 {
-               font-size: 35px;
+               font-size: 2.188rem;
             }
          }
       }
@@ -806,7 +805,6 @@ footer {
    }
 }
 
-
 @media only screen and (min-width: 600px) and (max-width: 767px) {
    header {
       display: flex;
@@ -844,7 +842,7 @@ footer {
             width: 100%;
 
             > h2 {
-               font-size: 35px;
+               font-size: 2.188rem;
                font-weight: 700;
                line-height: 70px;
                color: $color-primary;
@@ -980,14 +978,14 @@ footer {
             width: 100%;
 
             > h2 {
-               font-size: 50px;
+               font-size: 3.125rem;
                font-weight: 700;
                line-height: 70px;
                color: $color-primary;
             }
 
             > p {
-               font-size: 22px;
+               font-size: 1.375rem;
                font-weight: 400;
                line-height: 30px;
                color: $text-secondary;
@@ -1001,7 +999,7 @@ footer {
             margin-bottom: 25px;
             border: none;
             border-radius: 10px;
-            font-size: 16px;
+            font-size: 1rem;
             font-weight: 700;
             line-height: 25px;
             color: #fff;
@@ -1074,7 +1072,4 @@ footer {
 }
 
 @media only screen and (min-width: 1024px) {
-   html {
-      background-color: gray;
-   }
 }
